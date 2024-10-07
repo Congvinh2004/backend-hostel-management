@@ -11,7 +11,7 @@ module.exports = {
                 primaryKey: true,
                 type: Sequelize.INTEGER
             },
-            timeType: {
+            dateTime: {
                 type: Sequelize.DATE
             },
             totalCoin: {

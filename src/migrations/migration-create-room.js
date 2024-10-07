@@ -24,6 +24,9 @@ module.exports = {
             statusId: {
                 type: Sequelize.BOOLEAN
             },
+            discription: {
+                type: Sequelize.STRING
+            },
 
 
 

@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
         }
     };
     Income.init({
-        timeType: DataTypes.DATE,
+        dateTime: DataTypes.DATE,
         totalCoin: DataTypes.STRING,
         incurredCosts: DataTypes.STRING,
     }, {

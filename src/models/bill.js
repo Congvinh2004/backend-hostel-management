@@ -17,7 +17,7 @@ module.exports = (sequelize, DataTypes) => {
         roomId: DataTypes.INTEGER,
         totalId: DataTypes.STRING,
         date: DataTypes.DATE,
-        payId: DataTypes.BOOLEAN
+        payId: DataTypes.BOOLEAN,
     }, {
         sequelize,
         modelName: 'Bill',

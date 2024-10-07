@@ -15,13 +15,19 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      email: {
-        type: Sequelize.STRING
-      },
       firstName: {
         type: Sequelize.STRING
       },
       lastName: {
+        type: Sequelize.STRING
+      },
+      email: {
+        type: Sequelize.STRING
+      },
+      password: {
+        type: Sequelize.STRING
+      },
+      identifier: {
         type: Sequelize.STRING
       },
       address: {
@@ -30,7 +36,13 @@ module.exports = {
       phoneNumber: {
         type: Sequelize.STRING
       },
-      identifier: {
+      gender: {
+        type: Sequelize.BOOLEAN
+      },
+      role: {
+        type: Sequelize.STRING
+      },
+      image: {
         type: Sequelize.STRING
       },
 

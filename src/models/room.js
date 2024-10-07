@@ -18,6 +18,7 @@ module.exports = (sequelize, DataTypes) => {
         acreage: DataTypes.STRING,
         priceId: DataTypes.INTEGER,
         statusId: DataTypes.BOOLEAN,
+        discription: DataTypes.STRING,
     }, {
         sequelize,
         modelName: 'Room',
